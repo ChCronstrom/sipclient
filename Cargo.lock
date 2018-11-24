@@ -1,0 +1,14 @@
+[[package]]
+name = "sip"
+version = "0.0.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+
+[[package]]
+name = "sipclient"
+version = "0.1.0"
+dependencies = [
+ "sip 0.0.0 (registry+https://github.com/rust-lang/crates.io-index)",
+]
+
+[metadata]
+"checksum sip 0.0.0 (registry+https://github.com/rust-lang/crates.io-index)" = "a1fc19983cec2e9ebc06ed6d952c679e5ccbbdf5e971ffc99fce17176f0d78f7"

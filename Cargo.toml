@@ -1,0 +1,7 @@
+[package]
+name = "sipclient"
+version = "0.1.0"
+authors = ["christoffer"]
+
+[dependencies]
+sip = "*"
