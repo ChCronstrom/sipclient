@@ -2,6 +2,12 @@
 name = "sipclient"
 version = "0.1.0"
 authors = ["christoffer"]
+edition = "2018"
 
 [dependencies]
 sip = "*"
+tokio = { version = "0.1.13", features = ["async-await-preview"] }
+tokio-async-await = "0.1.4"
+
+[patch.crates-io]
+sip = { path = "../sip" }
